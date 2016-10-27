@@ -1,0 +1,15 @@
+{
+    "name": "rymar/converter",
+    "authors": [
+        {
+            "name": "Eughene Rymar",
+            "email": "eughene87@ukr.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Converter\\": "src"
+        }
+    },
+    "require": {}
+}
