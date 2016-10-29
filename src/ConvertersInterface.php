@@ -9,7 +9,7 @@ interface ConvertersInterface
      * @param string $primary
      * @param string $final
      * @param int $value
-     * @return int
+     * @return mixed
      */
 
     public static function convert($primary,$final,$value);
