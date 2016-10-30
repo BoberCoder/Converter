@@ -2,4 +2,6 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-echo \Vendor\Converter\Species\Lenght::convert('mile','km',100)."\n";
+$mk = new \Vendor\Converter\Species\ConvertToDB('mile to km',1.6);
+
+echo $mk->convert(60)."\n";
