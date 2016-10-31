@@ -11,5 +11,11 @@
             "Vendor\\Converter\\": "src"
         }
     },
-    "require": {}
+    "require": {},
+    "repositories":[
+        {
+            "type": "git",
+            "url": ""
+        }
+    ]
 }

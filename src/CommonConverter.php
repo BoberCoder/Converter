@@ -5,24 +5,24 @@ namespace Vendor\Converter;
 abstract class CommonConverter
 {
     /**
-     * string @var short description like "some to some", for example "mile to km"
+     * string @var short description like "some to some", for example "mile to km".
      */
     public $description;
 
     /**
-     * float @var converting coefficient
+     * float @var converting coefficient.
      */
     private $coef;
 
-    function __construct($description,$coef)
+    public function __construct($description, $coef)
     {
         $this->description = $description;
         $this->coef = $coef;
-
     }
 
     /**
      * @param float $value
+     *
      * @return float
      */
     public function convert($value)
@@ -31,5 +31,4 @@ abstract class CommonConverter
 
         return $value;
     }
-
 }
